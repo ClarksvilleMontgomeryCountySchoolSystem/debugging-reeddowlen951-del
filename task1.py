@@ -8,7 +8,7 @@ def snippet_1():
     # Expected output: Hello, Alex! You are 15 years old.
     name = "Alex"
     age = 15
-    print(f"Hello, {Name}!")
+    print(f"Hello, {name}!")
     print(f"You are {age} years old.")
 
 
@@ -21,7 +21,7 @@ def snippet_2():
     total_slices = pizzas * slices_per_pizza
     slices_each = total_slices / people
     print(f"Total slices: {total_slices}")
-    print(f"Slices per person: {slices_each)
+    print(f"Slices per person: {slices_each}")
 
 
 def snippet_3():
@@ -30,7 +30,7 @@ def snippet_3():
     student_name = "Jordan"
     score = 75
     passing_score = 60
-    if score >= passing_score
+    if score == passing_score:
         result = "passed"
     else:
         result = "did not pass"
@@ -49,7 +49,7 @@ def snippet_4():
         print("Player 1 wins!")
     elif player2_score > player1_score:
         print("Player 2 wins!")
-    elif player1_score = player2_score:
+    elif player1_score == player2_score:
         print("It's a tie!")
 
 
@@ -58,7 +58,7 @@ def snippet_5():
     # Expected: Show temperature and a message based on conditions
     temperature = 72
     is_sunny = True
-    print(f"Current temperature: {temperture} degrees")
+    print(f"Current temperature: {temperature} degrees")
     if is_sunny:
         print("It's a sunny day!")
     else:
@@ -75,4 +75,4 @@ def snippet_6():
     print(f"Book: {book_title}")
     print(f"Price each: ${price}")
     print(f"Quantity: {quantity}")
-    print(f"Total: $ total")
+    print(f"Total: $ {total}")
